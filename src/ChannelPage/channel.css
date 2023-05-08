@@ -1,0 +1,38 @@
+.channel {
+  width: 80%;
+  overflow: scroll;
+}
+.imgTop {
+  width: 96%;
+}
+.imgTop img {
+  width: 100%;
+}
+.mainBottom {
+  width: 96%;
+}
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+.category {
+  width: 96%;
+}
+.categoryMain {
+  width: 96%;
+}
+.left1 {
+  display: flex;
+}
+.left1 h4 {
+  font-size: 15px;
+}
+.left1 p {
+  font-size: 13px;
+}
+.left1 h6 {
+  font-size: 11px;
+}
+.end {
+  width: 96%;
+}

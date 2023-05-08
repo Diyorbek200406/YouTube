@@ -1,0 +1,30 @@
+.left {
+  width: 20%;
+  background-color: #fff;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.left ul li {
+  width: 100;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 5px 0;
+  color: #898989;
+  gap: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.icon {
+  font-size: 30px;
+}
+.leftBottomUl {
+  overflow-y: scroll;
+  height: 140px;
+}
