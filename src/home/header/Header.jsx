@@ -8,7 +8,7 @@ import { AiFillYoutube } from "react-icons/ai";
 const Header = () => {
   return (
     <header className="px-4">
-      <div className="logo w-25 gap-3">
+      <div className="logo gap-3">
         <RxHamburgerMenu className="hamburger" />
         <AiFillYoutube className="youtube" />
 
@@ -24,10 +24,10 @@ const Header = () => {
         />
       </div>
       <div className="profile w-25">
-        <img src="./src/assets//phone.png" alt="phone" />
-        <img src="./src/assets//shape.png" alt="shape" />
-        <img src="./src/assets//call.png" alt="call" />
-        <img src="./src/assets//user.png" alt="user" />
+        <img src="./src/assets/phone.png" alt="phone" />
+        <img src="./src/assets/shape.png" alt="shape" />
+        <img src="./src/assets/call.png" alt="call" />
+        <img src="./src/assets/user.png" alt="user" />
       </div>
     </header>
   );

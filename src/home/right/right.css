@@ -3,3 +3,8 @@
   overflow-y: scroll;
   height: 93vh;
 }
+@media (max-width: 640px) {
+  .right {
+    width: 100%;
+  }
+}

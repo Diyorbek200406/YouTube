@@ -6,6 +6,52 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.logo {
+  width: 25%;
+}
+@media (max-width: 680px) {
+  header {
+    height: 50px;
+  }
+  header .profile {
+    display: none;
+  }
+  header h4 {
+    font-size: 20px;
+    display: flex;
+  }
+  header .hamburger {
+    display: none;
+  }
+  header .youtube {
+    font-size: 60px;
+  }
+  header .logo {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  header {
+    height: 50px;
+  }
+  header .profile {
+    display: none;
+  }
+  header h4 {
+    font-size: 20px;
+    display: flex;
+  }
+  header .hamburger {
+    display: none;
+  }
+  header .youtube {
+    font-size: 60px;
+  }
+  header .logo {
+    width: 50%;
+  }
+}
+
 .hamburger {
   font-size: 40px;
 }

@@ -4,6 +4,13 @@
   overflow-y: scroll;
   height: 100vh;
 }
+
+@media (max-width: 640px) {
+  .left {
+    display: none;
+  }
+}
+
 .left ul {
   list-style-type: none;
   margin: 0;
